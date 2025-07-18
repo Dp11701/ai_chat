@@ -33,7 +33,7 @@ const Header = () => {
                 />
               </Link>
               {/* Navigation Links */}
-              <nav className="hidden md:flex items-center space-x-8">
+              <nav className="hidden lg:flex items-center space-x-8">
                 <Link
                   href="/terms-of-service"
                   className={getNavLinkClass("/terms-of-service")}
@@ -59,7 +59,7 @@ const Header = () => {
             </div>
 
             {/* Try Chat AI Button */}
-            <div className=" items-center hidden md:flex">
+            <div className=" items-center hidden lg:flex">
               <Link
                 href="https://play.google.com/store/apps/details?id=com.chat.chatai.chatbot.aichatbot&hl=en"
                 className="bg-gradient-to-r from-[#26B77D] to-[#00B0A7] hover:from-[#229968] hover:to-[#009A91] text-white px-6 py-2 rounded-[20px] text-sm font-medium transition-all duration-200"
@@ -69,10 +69,10 @@ const Header = () => {
             </div>
 
             {/* Mobile menu button */}
-            <div className="md:hidden flex items-center gap-4">
+            <div className="lg:hidden flex items-center gap-4">
               <Link
                 href="https://play.google.com/store/apps/details?id=com.chat.chatai.chatbot.aichatbot&hl=en"
-                className="bg-gradient-to-r from-[#26B77D] to-[#00B0A7] hover:from-[#229968] hover:to-[#009A91] text-white px-6 py-2 rounded-[20px] text-[16px] font-medium transition-all duration-200"
+                className="bg-gradient-to-r from-[#26B77D] to-[#00B0A7] hover:from-[#229968] hover:to-[#009A91] text-white px-6 py-2 rounded-[20px] text-sm md:text-base font-medium transition-all duration-200"
               >
                 Try Chat AI
               </Link>
@@ -97,7 +97,7 @@ const Header = () => {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-50 md:hidden">
+        <div className="fixed inset-0 z-50 lg:hidden">
           <div
             className="absolute inset-0 bg-black bg-opacity-50"
             onClick={() => setIsMobileMenuOpen(false)}
@@ -135,28 +135,28 @@ const Header = () => {
               <div className="space-y-6 h-[100vh] overflow-y-hidden pt-6">
                 <Link
                   href="/terms-of-service"
-                  className="block border-b border-gray-700 pb-6 text-white text-lg font-medium hover:text-gray-300 transition-colors"
+                  className="block border-b border-gray-700 pb-6 text-white text-base md:text-lg font-medium hover:text-gray-300 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   TERMS OF SERVICE
                 </Link>
                 <Link
                   href="/privacy-policy"
-                  className="border-b border-gray-700 pb-6 block text-white text-lg font-medium hover:text-gray-300 transition-colors"
+                  className="border-b border-gray-700 pb-6 block text-white text-base md:text-lg font-medium hover:text-gray-300 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   PRIVACY POLICY
                 </Link>
                 <Link
                   href="/refund-policy"
-                  className="border-b border-gray-700 pb-6 block text-white text-lg font-medium hover:text-gray-300 transition-colors"
+                  className="border-b border-gray-700 pb-6 block text-white text-base md:text-lg font-medium hover:text-gray-300 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   REFUND POLICY
                 </Link>
                 <Link
                   href="/contact"
-                  className="border-b border-gray-700 pb-6 block text-white text-lg font-medium hover:text-gray-300 transition-colors"
+                  className="border-b border-gray-700 pb-6 block text-white text-base md:text-lg font-medium hover:text-gray-300 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   CONTACT

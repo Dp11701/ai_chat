@@ -1,31 +1,35 @@
 export default function Contact() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">Contact Us</h1>
+      <h1 className="text-3xl font-bold  mb-8 text-white">Contact Us</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+          <h2 className="text-2xl font-semibold text-white mb-4">
             Get in Touch
           </h2>
-          <p className="text-gray-600 mb-6">
+          <p className="text-white mb-6">
             We'd love to hear from you. Send us a message and we'll respond as
             soon as possible.
           </p>
           <div className="space-y-4">
             <div>
-              <h3 className="font-semibold text-gray-900">Email</h3>
-              <p className="text-gray-600">support@example.com</p>
+              <h3 className="font-semibold text-white">Email</h3>
+              <p className="text-white">customer@begamob.com</p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900">Phone</h3>
-              <p className="text-gray-600">+1 (555) 123-4567</p>
+              <h3 className="font-semibold text-white">Phone</h3>
+              <p className="text-white">+84 985 369 578</p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900">Address</h3>
-              <p className="text-gray-600">
-                123 Main Street
+              <h3 className="font-semibold text-white">Address</h3>
+              <p className="text-white">
+                Begamob Global Limited
                 <br />
-                City, State 12345
+                info@begamob.com
+                <br />
+                Rm 308 3/F CHEVALIER HSE
+                <br />
+                45-51 CHATHAM RD S 尖沙咀 Hong Kong
               </p>
             </div>
           </div>
@@ -35,7 +39,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-white"
               >
                 Name
               </label>
@@ -50,7 +54,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-white"
               >
                 Email
               </label>
@@ -65,7 +69,7 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-white"
               >
                 Message
               </label>

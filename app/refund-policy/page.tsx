@@ -1,39 +1,42 @@
 export default function RefundPolicy() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">Refund Policy</h1>
-      <div className="prose prose-lg max-w-none">
-        <p className="text-gray-600 mb-4">
-          This is a sample Refund Policy page. You can customize this content
-          according to your needs.
+      <h1 className="text-3xl font-bold  mb-8 text-white">Refund Policy</h1>
+      <div className="prose prose-lg max-w-none flex flex-col gap-4">
+        <p className="text-lg font-bold text-white text-[14px] md:text-[28px]">
+          Auto Renewing Subscriptions:
         </p>
-        <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Refund Eligibility
-        </h2>
-        <p className="text-gray-600 mb-4">
-          You may request a refund within 30 days of purchase if you are not
-          satisfied with our service.
+        <p className="text-white text-[14px] md:text-[20px]">
+          • Subscribed users have <strong>unlimited access</strong> to the App's
+          translation services, including speech-to-text recognition,
+          translation, and text-to-speech.
         </p>
-        <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Refund Process
-        </h2>
-        <p className="text-gray-600 mb-4">
-          To request a refund, please contact our support team with your order
-          details and reason for the refund request.
+        <p className="text-white text-[14px] md:text-[20px]">
+          • Unsubscribed users can only use these services with a{" "}
+          <strong>limited quota per day</strong>.
         </p>
-        <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Processing Time
-        </h2>
-        <p className="text-gray-600 mb-4">
-          Refunds are typically processed within 5-7 business days after
-          approval. The refund will be credited to your original payment method.
+        <p className="text-white text-[14px] md:text-[20px]">
+          • Payment will be charged to your <strong>iTunes Account</strong> at
+          confirmation of purchase.
         </p>
-        <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Exceptions
-        </h2>
-        <p className="text-gray-600 mb-4">
-          Some services may not be eligible for refunds. Please review the
-          specific terms for each service before making a purchase.
+        <p className="text-white text-[14px] md:text-[20px]">
+          • Subscription <strong>automatically renews</strong> unless auto-renew
+          is turned off at least 24-hours before the end of the current period.
+        </p>
+        <p className="text-white text-[14px] md:text-[20px]">
+          • Account will be charged for renewal{" "}
+          <strong>within 24-hours prior</strong> to the end of the current
+          period, and the cost of the renewal will be identified.
+        </p>
+        <p className="text-white text-[14px] md:text-[20px]">
+          • Subscriptions may be <strong>managed by the user</strong>, and
+          auto-renewal may be turned off by going to the user’s Account Settings
+          after purchase.
+        </p>
+        <p className="text-white text-[14px] md:text-[20px]">
+          • Any <strong>unused portion of a free trial</strong> period, if
+          offered, will be forfeited when the user purchases a subscription to
+          that publication, where applicable.
         </p>
       </div>
     </div>

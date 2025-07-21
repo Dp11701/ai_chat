@@ -82,23 +82,26 @@ export default function PrivacyPolicy() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-white mb-8">Privacy Policy</h1>
         <div className="prose prose-lg max-w-none">
-          <p>
+          <p className="text-white text-[14px] md:text-[20px]">
             BEGAMOB Studio built iKame Global Team to specialize in making free
             mobile apps. This SERVICE is provided free of charge by BEGAMOB
             Studio and is intended for use as is.
           </p>
-          <p>
+          <br />
+          <p className="text-white text-[14px] md:text-[20px]">
             This page is used to inform visitors regarding our policies with the
             collection, use, and disclosure of Personal Information if anyone
             decided to use our Service.
           </p>
-          <p>
+          <br />
+          <p className="text-white text-[14px] md:text-[20px]">
             If you choose to use our Service, then you agree to the collection
             and use of information in relation to this policy. The Personal
             Information that we collect is used for providing and improving the
             Service. We will not use or share your information with anyone ex
           </p>
-          <p>
+          <br />
+          <p className="text-white text-[14px] md:text-[20px] mb-4">
             The terms used in this Privacy Policy have the same meaning as in
             our Terms and Conditions, which is accessible apps of iKame Global
             Team unless otherwise defined in this Privacy Policy.

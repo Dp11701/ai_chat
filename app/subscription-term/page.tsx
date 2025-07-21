@@ -1,7 +1,7 @@
 export default function RefundPolicy() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold  mb-8 text-white">Refund Policy</h1>
+      <h1 className="text-3xl font-bold  mb-8 text-white">Subscription Term</h1>
       <div className="prose prose-lg max-w-none flex flex-col gap-4">
         <p className="text-lg font-bold text-white text-[14px] md:text-[28px]">
           Auto Renewing Subscriptions:

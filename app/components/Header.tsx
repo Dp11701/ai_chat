@@ -47,10 +47,10 @@ const Header = () => {
                   PRIVACY POLICY
                 </Link>
                 <Link
-                  href="/refund-policy"
-                  className={getNavLinkClass("/refund-policy")}
+                  href="/subscription-term"
+                  className={getNavLinkClass("/subscription-term")}
                 >
-                  REFUND POLICY
+                  SUBSCRIPTION TERM
                 </Link>
                 <Link href="/contact" className={getNavLinkClass("/contact")}>
                   CONTACT

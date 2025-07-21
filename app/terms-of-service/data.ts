@@ -39,30 +39,30 @@ export const sections: Section[] = [
     content: `
       <strong>You agree not to do—or attempt to do—any of the following:</strong>
       
-      <p>Probe, scan, or test the vulnerability of any Bega Team system or network or breach any security or authentication measures;</p>
+      <p>• Probe, scan, or test the vulnerability of any Bega Team system or network or breach any security or authentication measures;</p>
       
-      <p>Access, tamper with, or use non-public areas of  Bega Team, Bega Team’s computer systems, or the technical delivery systems of Bega Team’s providers;
+      <p>• Access, tamper with, or use non-public areas of  Bega Team, Bega Team’s computer systems, or the technical delivery systems of Bega Team’s providers;
 Decipher, decompile, disassemble or reverse engineer any of the software used to provide Bega Team;</p>
       
-      <p>Interfere with, or attempt to interfere with, the access of any user, host or network, including sending a virus, overloading, flooding, spamming, or mail-bombing Bega Team;</p>
+      <p>• Interfere with, or attempt to interfere with, the access of any user, host or network, including sending a virus, overloading, flooding, spamming, or mail-bombing Bega Team;</p>
       
-      <p>Access or search Bega Team or download any intellectual property from Bega through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than our publicly supported interfaces;</p>
+      <p>• Access or search Bega Team or download any intellectual property from Bega through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than our publicly supported interfaces;</p>
       
-      <p>Plant malware or use Bega Team to distribute malware;</p>
+      <p>• Plant malware or use Bega Team to distribute malware;</p>
       
-      <p>Send any unsolicited communications, promotions, advertisements or spam;</p>
+      <p>• Send any unsolicited communications, promotions, advertisements or spam;</p>
             
-      <p>Send altered, deceptive or false source-identifying information, including "spoofing" or "phishing";</p>
+      <p>• Send altered, deceptive or false source-identifying information, including "spoofing" or "phishing";</p>
       
-      <p>Post or transmit anything that is fraudulent or misleading, or that infringes on others' rights;</p>
+      <p>• Post or transmit anything that is fraudulent or misleading, or that infringes on others' rights;</p>
       
-      <p>Impersonate or misrepresent Your affiliation with any person or entity;</p>
+      <p>• Impersonate or misrepresent Your affiliation with any person or entity;</p>
       
-      <p>Violate the privacy of others;</p>
+      <p>• Violate the privacy of others;</p>
       
-      <p>Violate any applicable law or regulation; or</p>
+      <p>• Violate any applicable law or regulation; or</p>
       
-      <p>Encourage or enable any other individual to do any of the above.</p>
+      <p>• Encourage or enable any other individual to do any of the above.</p>
       
       <p>Although We're not obligated to monitor access to or use of Bega Team or Your content or to review or edit any of Your content or the intellectual property of other Bega Team users, We have the right to do so for the purpose of operating Bega Team, to ensure compliance with these Terms, or to comply with applicable law or other legal requirements. We reserve the right, but are not obligated, to remove or disable access to any of Your content, at any time and without notice, including, but not limited to, if We, at our sole discretion, consider any of Your content to be objectionable or in violation of these Terms. We have the right to investigate violations of these Terms or conduct that affects Bega Team.</p>
       
